@@ -27,7 +27,7 @@
   "dependencies": {
     "aws-sdk": "^2.2.32",
     "commander": "^2.9.0",
-    "json-parse-helpfulerror": "^1.0.3",
+    "json-parse-helpfulerror": "^1.0.3"
   },
   "devDependencies": {
     "babel-core": "^6.4.5",
