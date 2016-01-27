@@ -13,8 +13,8 @@ program
 
 program
   .arguments('<file>')
-  .option('-t, --target [target]', 'Either TopicArn or EndpointArn, but not both.')
-  .option('-m, --message [message]', 'The message you want to send to the topic.')
+  .option('-t, --target', 'either TopicArn or EndpointArn, but not both.')
+  .option('-m, --message', 'the message you want to send to the topic.')
   .action(function(file, options) {
     var message = program.message || 'Test notification from Amazon SNS';
 
