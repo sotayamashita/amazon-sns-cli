@@ -1,10 +1,9 @@
 {
   "name": "amazon-sns-cli",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Amazon Simple Notification Service CLI",
-  "main": "src/index.js",
   "bin": {
-    "sns": "./bin/cli.js"
+    "sns": "cli.js"
   },
   "scripts": {
     "lint": "eslint --format 'node_modules/eslint-friendly-formatter' src",
