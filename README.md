@@ -17,8 +17,8 @@ $ npm install -g amazon-sns-cli
 
     -h, --help               output usage information
     -V, --version            output the version number
-    -t, --target [target]    either TopicArn or EndpointArn, but not both.
-    -m, --message [message]  the message you want to send to the topic.
+    -t, --target             either TopicArn or EndpointArn, but not both.
+    -m, --message            the message you want to send to the topic.
 ```
 
 ## License
